@@ -59,8 +59,6 @@ root@debcli:~# tree /etc/wireguard/clients/peer-2/
 1 directory, 4 files
 root@debcli:~# 
 ```
-
-
 Pour envoyer les configurations aux machines clientes utiliser :
 * sous Linux utiliser la commande : sudo scp -r /etc/wireguard/clients/peer-[N] [USER]@[IP]:/home/[USER]
 * sous Windows utiliser WinSCP.
