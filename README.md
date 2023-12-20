@@ -34,6 +34,6 @@ puis appliquer les modifications avec la commande : sudo systemctl restart dnsma
 Les fichiers de configuration et les QR codes des clients se trouvent dans : /etc/wireguard/clients/peer-[N]
 
 Pour envoyer les configurations aux machines clientes utiliser :
-1* sous Linux utiliser la commande : sudo scp -r /etc/wireguard/clients/peer-[N] [USER]@[IP]:/home/[USER]
-2* sous Windows utiliser WinSCP.
-3* sur un smartphone afficher le QR code avec la commande : sudo qrencode --type=ansiutf8 --read-from=/etc/wireguard/clients/peer-[N]/peer-[N].conf
+* sous Linux utiliser la commande : sudo scp -r /etc/wireguard/clients/peer-[N] [USER]@[IP]:/home/[USER]
+* sous Windows utiliser WinSCP.
+* sur un smartphone afficher le QR code avec la commande : sudo qrencode --type=ansiutf8 --read-from=/etc/wireguard/clients/peer-[N]/peer-[N].conf
