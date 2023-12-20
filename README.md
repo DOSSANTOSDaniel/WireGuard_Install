@@ -33,12 +33,31 @@ puis appliquer les modifications avec la commande : sudo systemctl restart dnsma
 8 clients ont été créés automatiquement, peer-2, peer-3...peer-9
 Les fichiers de configuration et les QR codes des clients se trouvent dans : /etc/wireguard/clients/peer-[N]
 ```bash
+root@debcli:~# tree -L 2 /etc/wireguard/
+/etc/wireguard/
+├── clients
+│   ├── peer-2
+│   ├── peer-3
+│   ├── peer-4
+│   ├── peer-5
+│   ├── peer-6
+│   ├── peer-7
+│   ├── peer-8
+│   └── peer-9
+├── wg-server.conf
+├── wg-server-private.key
+└── wg-server-public.key
+
+10 directories, 3 files
 root@debcli:~# tree /etc/wireguard/clients/peer-2/
 /etc/wireguard/clients/peer-2/
 ├── peer-2.conf
 ├── qr-peer-2.png
 ├── wg-peer-2-private.key
 └── wg-peer-2-public.key
+
+1 directory, 4 files
+root@debcli:~# 
 ```
 
 
