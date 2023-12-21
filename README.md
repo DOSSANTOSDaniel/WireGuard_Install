@@ -20,8 +20,9 @@ Il installe un serveur DNS (Dnsmasq) pour la résolution de nom en local à part
 5. L'extension des noms est [nom].lan
 
 # Limites
-* Il ne vérifie pas si le réseau VPN est différent du réseau local
-* Le script peut être lancé qu'une seule fois, certaines parties sont non reproductible
+* Il ne vérifie pas si le réseau VPN est différent du réseau local.
+* Le script peut être lancé qu'une seule fois, certaines parties sont non reproductible.
+* Le script a été testé seulement sur Debian 12 Bookworm.
 
 ## Usage
 ./wireguard_install.sh
